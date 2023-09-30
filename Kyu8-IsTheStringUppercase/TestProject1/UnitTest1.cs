@@ -4,7 +4,7 @@ namespace TestProject1
 {
     public class Tests
     {
-        [TestCase("", false)]
+        [TestCase("", true)]
         [TestCase(" h njkds", false)]
         [TestCase(" h nGjHkds", false)]
         [TestCase(" GD F FSDG", true)]
