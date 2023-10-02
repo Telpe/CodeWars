@@ -12,7 +12,7 @@ namespace KataSolution
 
             foreach (var letter in str)
             {
-                if (!vowels.Contains(letter))
+                if (-1 == Array.IndexOf(vowels, letter))
                 {
                     sb.Append(letter);
                 }
