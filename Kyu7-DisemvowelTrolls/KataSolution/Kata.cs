@@ -10,14 +10,14 @@ namespace KataSolution
 
             var sb = new StringBuilder();
 
-            for (int i = 0; i < str.Length; i++)
+            foreach (var letter in str)
             {
-                if (!vowels.Contains(str.ElementAt(i)))
+                if (!vowels.Contains(letter))
                 {
-                    sb.Append(str.ElementAt(i));
+                    sb.Append(letter);
                 }
             }
-            
+
             return sb.ToString();
         }
     }
