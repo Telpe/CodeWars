@@ -4,8 +4,8 @@ namespace TestProject1
 {
     public class Tests
     {
-        [TestCase("abcdefghijklmnopqrstuvwxyz", "abcdefghijklmnopqrstuvwxyz")]
-        [TestCase("ABCDEFGHIJKLMNOPQRSTUVWXYZ", "ABCDEFGHIJKLMNOPQRSTUVWXYZ")]
+        [TestCase("abcdefghijklmnopqrstuvwxyz", "bcdfghjklmnpqrstvwxyz")]
+        [TestCase("ABCDEFGHIJKLMNOPQRSTUVWXYZ", "BCDFGHJKLMNPQRSTVWXYZ")]
         public void Test1(string input, string expectedOutput)
         {
             // Arrange
